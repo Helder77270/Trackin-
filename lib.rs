@@ -28,7 +28,7 @@ pub struct Initialize<'info> {
     // next 8 bytes come from NewAccount.data being type u64.
     // (u64 = 64 bits unsigned integer = 8 bytes)
     #[account(init, payer = signer, space = 8 + 8)]
-    pub new_account: Account<'info, NewAccount>,
+   // pub new_account: Account<'info, NewAccount>,
     #[account(mut)]
     pub owner: Signer<'info>,
     pub system_program: Program<'info, System>,
@@ -46,4 +46,18 @@ pub struct SetFees <'info> {
     #[account(mut)]
     pub fees: Account<'info, Fees>
 
+}
+
+#[derive(Accounts)]
+pub struct CreatePda<'info> {
+    #[account(init, seeds = [b"vault".as_ref()], bump, payer = user, space = 8 + 32)] // PDA creation, 
+    pub pda_account: Account<'info, Treasury>, // data registered in the pda account
+    #[account(mut)]
+    pub user: Signer<'info>,
+    pub system_program: Program<'info, System>,
+}
+
+#[account]
+pub struct Treasury {
+    pub money: u64,  // Nombre de token dans le compte
 }
