@@ -1,0 +1,13 @@
+.root {
+  &[data-color="blue"] {
+    color: blue;
+  }
+
+  &[data-color="red"] {
+    color: red;
+  }
+
+  &[data-color="green"] {
+    color: green;
+  }
+}

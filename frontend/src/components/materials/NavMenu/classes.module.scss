@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 24px 0;
+    background: black;
+    .item {
+        > a {
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 500;
+            text-decoration: none;
+            &:hover {
+                color: lightblue;
+            }
+        }
+    }
+}
