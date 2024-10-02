@@ -1,0 +1,18 @@
+{
+    "name": "trackin-",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "npm run install:frontend && npm run install:backend",
+        "install:backend": "cd backend && npm install",
+        "install:frontend": "cd frontend && npm install"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "copyfiles": "^2.4.1",
+        "file-type-checker": "^1.0.8",
+        "prettier": "^3.2.2"
+    }
+}
