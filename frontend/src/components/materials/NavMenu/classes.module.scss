@@ -1,7 +1,7 @@
 .root {
     display: flex;
     gap: 16px;
-    padding: 24px 0;
+    padding: 24px 50px 24px 130px;
     height: 24px;
     padding-left: 130px;
     align-items: center;
@@ -30,6 +30,35 @@
             &:focus {
                 outline: none;
             }
+        }
+    }
+
+    .right-container {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        .link {
+            cursor: pointer;
+            color: #9ead84;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .wallet-icon {
+            cursor: pointer;
+
+            width: 32px;
+            height: 32px;
+            outline: #9ead84;
+            stroke: #9ead84;
+        }
+
+        .user {
+            cursor: pointer;
+
+            width: 32px;
+            height: 32px;
         }
     }
 }
