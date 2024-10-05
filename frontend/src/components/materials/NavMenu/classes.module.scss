@@ -1,18 +1,35 @@
 .root {
     display: flex;
     gap: 16px;
-    justify-content: center;
     padding: 24px 0;
     background: #324c40;
-    height: 82px;
-    .item {
-        > a {
+    height: 24px;
+    padding-left: 130px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    .logo-container {
+        .logo {
+            width: 150px;
+        }
+    }
+
+    .input-container {
+        .input {
+            border-radius: 5px;
+            border: none;
+            height: 16px;
+            width: 800px;
+            background-color: #9ead84;
+            padding: 16px;
             color: white;
-            font-size: 1.25rem;
-            font-weight: 500;
-            text-decoration: none;
-            &:hover {
-                color: lightblue;
+            font-size: 16px;
+            &::placeholder {
+                color: white;
+            }
+
+            &:focus {
+                outline: none;
             }
         }
     }

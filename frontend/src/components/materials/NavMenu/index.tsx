@@ -1,14 +1,20 @@
-import { Link } from "react-router-dom";
-import ModuleConfig from "../../../config/ModuleConfig";
 import classes from "./classes.module.scss";
-const pages = ModuleConfig.getInstance().getConfig().modules.pages;
+import Logo from "./logo.png";
 
 export default function NavMenu() {
     return (
         <div className={classes["root"]}>
-            <div className={classes["item"]}>
-                <Link to={pages.Home.props.path}>Home</Link>
+            <div className={classes["logo-container"]}>
+                <img className={classes["logo"]} src={Logo} alt="logo" />
             </div>
+            <div className={classes["input-container"]}>
+                <input
+                    type="text"
+                    placeholder="Search for tokens, collections and users"
+                    className={classes["input"]}
+                />
+            </div>
+            <div className={classes["right-container"]}></div>
         </div>
     );
 }
