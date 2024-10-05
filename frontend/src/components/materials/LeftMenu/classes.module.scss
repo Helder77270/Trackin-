@@ -1,8 +1,7 @@
 .root {
     width: 120px;
-    background-color: #324c40;
-    height: calc(100vh - 72px);
-
+    height: calc(100vh - 92px);
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
