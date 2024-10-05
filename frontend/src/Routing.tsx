@@ -2,7 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ModuleConfig from "./config/ModuleConfig";
 import HomePage from "./components/pages/HomePage";
 import ModulePage from "./components/materials/ModulePage";
-import TestPage from "./components/pages/TestPage";
+import CreatedPage from "./components/pages/CreatedPage";
+import AddPage from "./components/pages/AddPage";
 
 const pages = ModuleConfig.getInstance().getConfig().modules.pages;
 
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
         path: pages.Created.props.path,
         element: (
             <ModulePage from={pages.Created}>
-                <TestPage />
+                <CreatedPage />
             </ModulePage>
         ),
     },
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
         path: pages.Add.props.path,
         element: (
             <ModulePage from={pages.Add}>
-                <TestPage />
+                <AddPage />
             </ModulePage>
         ),
     },
