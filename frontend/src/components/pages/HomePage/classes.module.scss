@@ -1,2 +1,37 @@
 .root {
+    .title {
+        font-size: 64px;
+        font-weight: medium;
+    }
+    .welcome-container {
+        margin-left: 120px;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        .user-container {
+            display: flex;
+            align-items: center;
+            gap: 48px;
+
+            .left {
+                > img {
+                    width: 115px;
+                    height: 115px;
+                }
+            }
+
+            .right {
+                font-size: 40px;
+
+                .name {
+                    font-weight: lighter;
+
+                    .last-name {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
 }

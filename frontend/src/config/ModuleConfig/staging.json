@@ -5,10 +5,16 @@
     },
     "modules": {
         "pages": {
-            "Home": {
+            "Welcome": {
                 "enabled": true,
                 "props": {
                     "path": "/"
+                }
+            },
+            "Home": {
+                "enabled": true,
+                "props": {
+                    "path": "/home"
                 }
             },
             "Created": {
@@ -21,6 +27,12 @@
                 "enabled": true,
                 "props": {
                     "path": "/add"
+                }
+            },
+            "Profile": {
+                "enabled": true,
+                "props": {
+                    "path": "/profile"
                 }
             }
         }
