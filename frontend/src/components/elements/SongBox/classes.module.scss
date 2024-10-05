@@ -1,8 +1,24 @@
 .root {
+    max-width: 200px;
     .image-container {
         cursor: pointer;
         > img {
             width: 200px;
+        }
+    }
+
+    .info {
+        .artist {
+            font-size: 20px;
+            font-weight: medium;
+            color: #547d54;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #547d54;
+            white-space: wrap;
         }
     }
 }

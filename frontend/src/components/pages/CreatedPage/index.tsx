@@ -12,6 +12,51 @@ export default function CreatedPage() {
                         songs={[
                             {
                                 artist: "The Weeknd",
+                                title: "Blinding Lights feat ifjfjepfiodejzfiopjk foejzfipezjfi jfiopejzpf",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
                                 title: "Blinding Lights",
                                 image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
                             },

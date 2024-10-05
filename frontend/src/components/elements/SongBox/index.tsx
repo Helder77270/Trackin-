@@ -16,8 +16,8 @@ export default function SongBox({ song }: IProps) {
                 <img src={song.image} alt="song" />
             </div>
             <div className={classes["info"]}>
-                <div className={classes["artist"]}>{song.artist}</div>
                 <div className={classes["title"]}>{song.title}</div>
+                <div className={classes["artist"]}>{song.artist}</div>
             </div>
         </div>
     );
