@@ -1,2 +1,14 @@
 .root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-size: 48px;
+    }
+
+    .songs-container {
+        margin-top: 48px;
+        width: 100%;
+    }
 }
