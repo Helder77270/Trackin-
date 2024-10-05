@@ -16,9 +16,17 @@ const router = createBrowserRouter([
         ),
     },
     {
-        path: pages.Test.props.path,
+        path: pages.Created.props.path,
         element: (
-            <ModulePage from={pages.Test}>
+            <ModulePage from={pages.Created}>
+                <TestPage />
+            </ModulePage>
+        ),
+    },
+    {
+        path: pages.Add.props.path,
+        element: (
+            <ModulePage from={pages.Add}>
                 <TestPage />
             </ModulePage>
         ),
