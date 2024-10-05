@@ -1,6 +1,7 @@
 import PageTemplate from "../PageTemplate";
 import classes from "./classes.module.scss";
 import userProfile from "../../materials/NavMenu/user.png";
+import SongsList from "../../elements/SongsList";
 
 export const user = {
     pseudo: "Dessert",
@@ -31,6 +32,98 @@ export default function HomePage() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className={classes["recent-container"]}>
+                    <SongsList
+                        title="Recent"
+                        songs={[
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                            {
+                                artist: "The Weeknd",
+                                title: "Blinding Lights",
+                                image: "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png",
+                            },
+                        ]}
+                    />
                 </div>
             </div>
         </PageTemplate>

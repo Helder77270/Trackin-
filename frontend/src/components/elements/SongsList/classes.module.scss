@@ -1,0 +1,16 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .title {
+        font-size: 24px;
+    }
+
+    .songs-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+}
